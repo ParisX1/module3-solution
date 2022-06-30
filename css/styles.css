@@ -59,7 +59,15 @@ p {
     margin-top:0;
 }
 
+#collapsable-nav {
+    visibility: hidden;
+}
+
 @media(max-width: 767px){
+    #nav-list {
+        visibility: visible;
+    }
+
     #nav-list > li{
         border: 1px solid black;
     }
